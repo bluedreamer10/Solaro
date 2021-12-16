@@ -30,8 +30,7 @@ class PlanetDetail : AppCompatActivity() {
         }
 
         backBtnDetailPage.setOnClickListener{
-            val intentToMainPage = Intent(this, MainActivity::class.java)
-            startActivity(intentToMainPage)
+            finish()
         }
     }
 
