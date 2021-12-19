@@ -8,6 +8,7 @@
     android:background="@color/primary"
     android:orientation="vertical">
 
+
     <LinearLayout
         android:id="@+id/heading_solaro"
         android:layout_width="match_parent"
@@ -16,16 +17,15 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/bg_header">
 
-        <TextView
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Solaro"
-            android:fontFamily="@font/poppins_semibold"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="15dp"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="25sp"/>
+            android:background="@drawable/bg_header"
+            app:title="Solaro"
+            app:titleTextAppearance="@style/yourstyle"
+            app:titleTextColor="@color/white"
+            />
     </LinearLayout>
 
 
