@@ -12,7 +12,7 @@
     <LinearLayout
         android:id="@+id/heading_solaro"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginBottom="20dp"
         android:background="@drawable/bg_header">
@@ -21,7 +21,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_header"
+            android:background="@color/black"
             app:title="Solaro"
             app:titleTextAppearance="@style/yourstyle"
             app:titleTextColor="@color/white"

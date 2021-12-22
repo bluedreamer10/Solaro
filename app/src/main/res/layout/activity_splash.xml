@@ -28,6 +28,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="Developed by Arin Verma "
         android:textSize="18sp"
+        android:background="@color/black"
         android:fontFamily="@font/poppins_regular"
         android:textColor="@color/white"
         android:gravity="center_horizontal"/>

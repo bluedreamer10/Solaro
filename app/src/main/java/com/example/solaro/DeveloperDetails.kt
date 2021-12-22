@@ -35,5 +35,10 @@ class DeveloperDetails : AppCompatActivity() {
             val intentGithub = Intent(Intent.ACTION_VIEW , Uri.parse("https://github.com/bluedreamer10"))
             startActivity(intentGithub)
         }
+
+        whatsapplogo.setOnClickListener{
+            val whatsAppIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://wa.me/919770889454"))
+            startActivity(whatsAppIntent)
+        }
     }
 }

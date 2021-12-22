@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/space_bg_splash"
     android:scaleY="1.01"
+    android:background="@drawable/space_bg_splash"
     tools:context=".DeveloperDetails">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -145,6 +145,14 @@
                         android:elevation="30dp"
                         android:src="@drawable/github" />
 
+                    <ImageView
+                        android:id="@+id/whatsapplogo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:elevation="30dp"
+                        android:src="@drawable/whatsapp" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -155,7 +163,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="15dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
                         android:text="LinkedIn"
@@ -173,11 +181,21 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="15dp"
                         android:layout_marginBottom="20dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins_regular"
                         android:text="Github"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="WhatsApp"
                         android:textColor="@color/white" />
 
 

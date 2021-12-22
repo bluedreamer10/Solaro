@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         my_recycler.adapter = Adapter(setData.SetPlanets())
         my_recycler.layoutManager = LinearLayoutManager(this)
 
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
