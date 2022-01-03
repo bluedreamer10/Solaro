@@ -7,7 +7,7 @@
     tools:context=".SplashActivity"
     android:elevation="-20dp"
     android:scaleY="1.01"
-    android:background="@drawable/space_bg_splash">
+    android:background="@color/primary">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottie"
@@ -26,9 +26,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:text="Developed by Arin Verma "
-        android:textSize="18sp"
-        android:background="@color/black"
+        android:text="an Arin Verma production\nSolaro © 2021"
         android:fontFamily="@font/poppins_regular"
         android:textColor="@color/white"
         android:gravity="center_horizontal"/>

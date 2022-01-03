@@ -25,14 +25,14 @@ class SplashActivity : AppCompatActivity() {
                 View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_FULLSCREEN
         }
         //Below three lines are to provide translation effect to the titles and images in splash screen
-        lottie.animate().translationX(1600f).setDuration(1000).setStartDelay(2500)
-        textViewHeading.animate().translationX(1600f).setDuration(1000).setStartDelay(2500)
-        tag.animate().translationY(-1000f).setDuration(1000).setStartDelay(2500)
+//        lottie.animate().translationX(1600f).setDuration(1000).setStartDelay(2500)
+//        textViewHeading.animate().translationX(1600f).setDuration(1000).setStartDelay(2500)
+        tag.animate().translationX(1600f).setDuration(1000).setStartDelay(2500)
 
         Handler().postDelayed({
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 3500) // 3500 is the delayed time in milliseconds.
+        }, 3150) // 3500 is the delayed time in milliseconds.
     }
 }
